@@ -80,3 +80,7 @@ float calc_fov(const vec3_t& from, const vec3_t& to, const vec3_t& view_angle) {
 
 	return ideal_angle.x + ideal_angle.y;
 }
+
+struct mat3x4 {
+	float c[3][4];
+};
