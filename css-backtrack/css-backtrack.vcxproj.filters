@@ -12,9 +12,6 @@
     <Filter Include="minhook">
       <UniqueIdentifier>{1bf9008d-1d21-4413-ad7d-819b973369c4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\imgui">
-      <UniqueIdentifier>{0cbf4bf0-a5d2-41f6-a756-0531693612fd}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry.cpp">
@@ -37,6 +34,12 @@
     </ClCompile>
     <ClCompile Include="minhook\hde\hde64.c">
       <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="create_move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +68,15 @@
       <Filter>minhook</Filter>
     </ClInclude>
     <ClInclude Include="vector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

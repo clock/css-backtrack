@@ -7,8 +7,8 @@ struct Vector {
 	float x, y, z;
 };
 
-struct UserCmd {
-	virtual ~UserCmd() {}; //Destructor 0
+struct user_cmd {
+	virtual ~user_cmd() {}; //Destructor 0
 	int command_number; //4
 	int tick_count; //8
 	Vector viewangles; //C
