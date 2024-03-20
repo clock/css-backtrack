@@ -8,7 +8,7 @@
    
 [Video Demo](https://streamable.com/m5enex)
 
-[Video Demo](https://streamable.com/gw7cgb)
+[Video Demo](https://streamable.com/8kkek3)
 
 ## Dependencies
 This project uses [MinHook](https://github.com/TsudaKageyu/minhook) for hooking functions.
