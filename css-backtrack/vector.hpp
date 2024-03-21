@@ -65,8 +65,6 @@ public:
 		return ((float*)this)[i];
 	}
 
-	// lol
-	// fuck you why leave this empty retard
 	void clamp() {
 		while (this->z < -89.f)
 			this->z += 89.f;
